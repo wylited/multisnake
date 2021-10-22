@@ -1,0 +1,13 @@
+[package]
+name = "bevtest"
+version = "0.1.0"
+edition = "2018"
+
+[toolchain]
+channel = "nightly"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+
+[dependencies]
+bevy = { git = "https://github.com/bevyengine/bevy", rev = "99199338ad5e3d89d767f639ef4cd7b6da52ed83", features = ["dynamic"]}
