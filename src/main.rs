@@ -1,3 +1,5 @@
+pub mod client;
+
 use bevy::prelude::*;
 
 fn main() {

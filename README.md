@@ -10,7 +10,7 @@ Please do not distrubute self compiled standalone versions of the game without e
 
 ### Notes
 
-This game makes use of Rust and Bevy, so make sure you have rustc preinstalled on your working device and ready to use. [Check out the bevy book as well](https://bevyengine.org/learn/book/introduction/). 
+This game makes use of Rust and Bevy, so make sure you have rustc preinstalled on your working device and ready to use. [Check out the bevy book as well](https://bevyengine.org/learn/book/introduction/).
 Now bevy takes about an 5 minutes to compile normally and thats too slow, so we have the faster way to compile which is more indepth [here](https://bevyengine.org/learn/book/getting-started/setup/"), but here's a brief tutorial.
 
 Download the LLD linker which is faster way faster then the rust linker.

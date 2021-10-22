@@ -185,13 +185,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "904dfeac50f3cdaba28fc6f57fdcddb75f49ed61346676a78c4ffe55877802fd"
 
 [[package]]
-name = "bevtest"
-version = "0.1.0"
-dependencies = [
- "bevy",
-]
-
-[[package]]
 name = "bevy"
 version = "0.5.0"
 source = "git+https://github.com/bevyengine/bevy?rev=99199338ad5e3d89d767f639ef4cd7b6da52ed83#99199338ad5e3d89d767f639ef4cd7b6da52ed83"
@@ -2126,6 +2119,13 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "b9f1c5b025cda876f66ef43a113f91ebc9f4ccef34843000e0adf6ebbab84e21"
 dependencies = [
  "winapi",
+]
+
+[[package]]
+name = "multisnake"
+version = "0.1.0"
+dependencies = [
+ "bevy",
 ]
 
 [[package]]
