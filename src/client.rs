@@ -66,6 +66,11 @@ pub struct Tile {
 }// Data strucutre for a Tile
 
 impl Tile {
+    /// Get a reference to the tile's pos.
+    pub fn pos(&self) -> &Position {
+        &self.pos
+    }
+
     pub fn x(&self) -> &u32 {
         self.pos.x()
     }
@@ -85,11 +90,6 @@ impl Tile {
     }
     pub fn change_z(&mut self, change: u32) {
         self.pos.change_z(change)
-    }
-
-    /// Get a reference to the tile's pos.
-    pub fn pos(&self) -> &Position {
-        &self.pos
     }
 
     /// Get a reference to the tile's type.

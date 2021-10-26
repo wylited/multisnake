@@ -10,4 +10,4 @@ channel = "nightly"
 
 
 [dependencies]
-bevy = { git = "https://github.com/bevyengine/bevy", rev = "99199338ad5e3d89d767f639ef4cd7b6da52ed83", features = ["dynamic"]}
+bevy = { git = "https://github.com/bevyengine/bevy", rev = "99199338ad5e3d89d767f639ef4cd7b6da52ed83"}

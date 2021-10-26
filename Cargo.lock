@@ -189,7 +189,6 @@ name = "bevy"
 version = "0.5.0"
 source = "git+https://github.com/bevyengine/bevy?rev=99199338ad5e3d89d767f639ef4cd7b6da52ed83#99199338ad5e3d89d767f639ef4cd7b6da52ed83"
 dependencies = [
- "bevy_dylib",
  "bevy_internal",
 ]
 
@@ -290,14 +289,6 @@ dependencies = [
  "bevy_ecs",
  "bevy_log",
  "bevy_utils",
-]
-
-[[package]]
-name = "bevy_dylib"
-version = "0.5.0"
-source = "git+https://github.com/bevyengine/bevy?rev=99199338ad5e3d89d767f639ef4cd7b6da52ed83#99199338ad5e3d89d767f639ef4cd7b6da52ed83"
-dependencies = [
- "bevy_internal",
 ]
 
 [[package]]
